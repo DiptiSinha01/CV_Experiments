@@ -1,0 +1,56 @@
+# Python bytecode and cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+cv_env/
+cv_env312/
+.env/
+
+# Environment variables and secrets
+.env.*
+!.env.example
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDEs and editors
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Build, packaging, and test artifacts
+build/
+dist/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Logs
+*.log
+
+# Generated output (uncomment if these are generated files you do not want to track)
+# output/
+# outputs/
+# results/
+
+# Large media / model files (review before committing)
+# *.mp4
+# *.avi
+# *.mov
+# *.weights
+# *.onnx
+# *.pt
+# *.pth
+Experiment-1/video.mp4
